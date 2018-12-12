@@ -86,10 +86,10 @@ public class Robot extends IterativeRobot {
 			LiftServo.set(1);
 		}
 		
-		// SmartDashboard.putNumber("Encoder Left", LeftEncoder.get());
-		// SmartDashboard.putNumber("Encoder Right", RightEncoder.get());
-		// SmartDashboard.putNumber("Encoder Lift", LiftEncoder.get());
-		// SmartDashboard.putNumber("Encoder Angle", AngleEncoder.get());
+		SmartDashboard.putNumber("Encoder Left", LeftEncoder.get());
+		SmartDashboard.putNumber("Encoder Right", RightEncoder.get());
+		SmartDashboard.putNumber("Encoder Lift", LiftEncoder.get());
+		SmartDashboard.putNumber("Encoder Angle", AngleEncoder.get());
 		
 	}
 
